@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Marc Zottner
-  description: Andvanced role for Red Hat JBoss Web Server (httpd)
+  description: Advanced role for Red Hat JBoss Web Server - Tomcat
   license: license (Apache)
   min_ansible_version: 2.1.1.0
   platforms:
