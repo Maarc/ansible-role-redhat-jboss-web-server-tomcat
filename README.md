@@ -36,7 +36,8 @@ License
 [LICENSE](./LICENSE)
 
 
-Author Information
+Authors Information
 ------------------
 
 * [Marc Zottner] (https://github.com/Maarc)
+* [Roeland van de Pol] (https://github.com/roelandpol)
