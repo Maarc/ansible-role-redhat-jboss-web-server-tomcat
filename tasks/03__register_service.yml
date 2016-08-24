@@ -6,7 +6,7 @@
     group: "{{ jws_tomcat.group }}"
     src: tomcat.service.j2
     dest: "/etc/systemd/system/{{ jws_tomcat.service }}.service"
-    mode: "755"
+    mode: "0755"
   register: systemd_service_file
   notify: Restart JWS Tomcat
 

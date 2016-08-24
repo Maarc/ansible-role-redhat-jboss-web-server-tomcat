@@ -6,7 +6,7 @@
     group: "{{ jws_tomcat.group }}"
     src: tomcat-users.xml.j2
     dest: "{{ jws_tomcat.home}}/conf/tomcat-users.xml"
-    mode: "755"
+    mode: "0755"
   notify: Restart JWS Tomcat
 
 - name: (02) Set JWS Tomcat HTTP port ({{ jws_tomcat.port_http }})

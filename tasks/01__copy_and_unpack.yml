@@ -19,6 +19,6 @@
     group: "{{ jws_tomcat.group }}"
 
 - name: (01) Updating owners
-  file: path={{item.user_home}}/jws-3.0 owner={{item.user}} group={{item.group}}
+  file: path={{ item.user_home }}/jws-3.0 owner={{ item.user }} group={{ item.group }}
   with_items:
-    - "{{jws_tomcat}}"
+    - "{{ jws_tomcat }}"
