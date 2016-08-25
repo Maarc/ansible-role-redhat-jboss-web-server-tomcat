@@ -20,4 +20,7 @@ galaxy_info:
 # Several instances cannot be setup on the same host (cf. https://docs.ansible.com/ansible/playbooks_roles.html#task-include-files-and-encouraging-reuse)
 allow_duplicates: no
 
-dependencies: [ 'Maarc.rh-jboss-common,,rh-jboss-common' ]
+dependencies:
+  - role: Maarc.rh-jboss-common
+    src: Maarc.rh-jboss-common
+    name: rh-jboss-common
