@@ -16,9 +16,20 @@ This role has been tested on Ansible 2.0.2.0 and 2.1.1.0. It requires Red Hat En
 Dependencies
 ------------
 
-The "rh-jboss-common" role is required. It could be imported as follows:
+The "Maarc.rh-jboss-common" role is required. It could be imported as follows:
+
+    ansible-galaxy install Maarc.rh-jboss-common -p roles
+
+or
 
     ansible-galaxy install -r requirements.yml -p roles
+
+
+Installation
+------------
+
+    ansible-galaxy install Maarc.rh-jboss-web-server-tomcat -p roles
+
 
 
 Role Variables
@@ -32,7 +43,7 @@ Example Playbook
 
     - hosts: "dev-jws-group"
       roles:
-        - {role: "rh-jboss-web-server-tomcat", app_list: { "tomcat-sample.war" }}
+        - {role: "Maarc.rh-jboss-web-server-tomcat", app_list: { "tomcat-sample.war" }}
 
 
 License

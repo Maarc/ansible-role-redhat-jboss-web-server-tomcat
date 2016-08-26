@@ -20,5 +20,5 @@ galaxy_info:
 # Several instances cannot be setup on the same host (cf. https://docs.ansible.com/ansible/playbooks_roles.html#task-include-files-and-encouraging-reuse)
 allow_duplicates: no
 
-# Empty as otherwise the Galaxy import does not work as expected.
-dependencies: []
+dependencies:
+  - role: Maarc.rh-jboss-common
