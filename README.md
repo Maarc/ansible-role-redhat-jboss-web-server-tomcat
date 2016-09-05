@@ -1,4 +1,4 @@
-Ansible role: "Red Hat JBoss Web Server - Tomcat" [![Build Status](https://travis-ci.org/Maarc/ansible-role-redhat-jboss-web-server-tomcat.svg?branch=master)](https://travis-ci.org/Maarc/ansible-role-redhat-jboss-web-server-tomcat)
+Ansible role: "Red Hat JBoss Web Server - Tomcat" [![Build Status](https://travis-ci.org/Maarc/ansible-role-redhat-jboss-web-server-tomcat.svg?branch=master)](https://travis-ci.org/Maarc/ansible-role-redhat-jboss-web-server-tomcat) [![Galaxy](https://img.shields.io/badge/galaxy-maarc.rh--jboss--web--server--tomcat-blue.svg?style=flat)](https://galaxy.ansible.com/Maarc/rh-jboss-web-server-tomcat)
 =================================
 
 Description
